@@ -31,7 +31,8 @@ new webpack.ProvidePlugin({
             applicationStyles: 'app/styles/app.scss',
             actions: 'app/actions/actions.jsx',
             reducers: 'app/reducers/reducers.jsx',
-            configureStore: 'app/store/configureStore.jsx'
+            configureStore: 'app/store/configureStore.jsx',
+            TodoAPI: 'app/api/TodoAPI.jsx'
         },
         extensions: ['.jsx', '', '.js']
     },

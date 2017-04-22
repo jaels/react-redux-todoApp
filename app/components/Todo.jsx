@@ -8,7 +8,7 @@ var Todo = React.createClass({
         var {id, text, completed, createdAt, completedAt, dispatch} = this.props;
         var todoClassName = completed ? 'todo todo-completed' : "todo";
         var renderDate = ()=> {
-            var message = 'Created ';
+            var message = 'Created at ';
             var timestamp = createdAt;
             if(completed) {
                 message = 'Completed ';

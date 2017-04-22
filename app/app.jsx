@@ -10,9 +10,6 @@ store.subscribe(() => {
     console.log('new state', store.getState())
 })
 
-store.dispatch(actions.addTodo('clean the yard'));
-store.dispatch(actions.setSearchText('yard'));
-store.dispatch(actions.toggleShowCompleted());
 
 $(document).foundation();
 
